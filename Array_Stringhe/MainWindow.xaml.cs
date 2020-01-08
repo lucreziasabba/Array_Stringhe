@@ -21,7 +21,7 @@ namespace Array_Stringhe
     /// </summary>
     public partial class MainWindow : Window
     {
-        private const string file = "file.txt";
+        private const string file = "file.txt"; 
         public MainWindow()
         {
             InitializeComponent();
@@ -32,7 +32,7 @@ namespace Array_Stringhe
         {
             array[i] = TxtStringa.Text;
             i++;
-            TxtStringa.Clear();
+            TxtStringa.Clear(); 
             TxtStringa.Focus();
             if (i >= 5)
             {
