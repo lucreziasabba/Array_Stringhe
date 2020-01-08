@@ -1,0 +1,16 @@
+﻿<Window x:Class="Array_Stringhe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Array_Stringhe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="TxtStringa" HorizontalAlignment="Left" Height="40" Margin="75,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" />
+        <Button Name="BtnInserisci" Content="INSERISCI" HorizontalAlignment="Left" IsEnabled="True" Margin="355,80,0,0" VerticalAlignment="Top" Width="100" Height="47" Click="BtnInserisci_Click"/>
+        <Button Name="BtnStampa" Content="STAMPA" HorizontalAlignment="Left" IsEnabled="False" Margin="570,80,0,0" VerticalAlignment="Top" Width="100" Height="47" Click="BtnStampa_Click"/>
+        <Button Name="BtnPubblica" Content="PUBBLICA" HorizontalAlignment="Left" IsEnabled="False" Margin="355,171,0,0" VerticalAlignment="Top" Width="100" Height="47" Click="BtnPubblica_Click"/>
+        <Label Name="LblStringa" Content="" HorizontalAlignment="Left" Margin="75,200,0,0" VerticalAlignment="Top" Height="161" Width="235"/>
+    </Grid>
+</Window>
